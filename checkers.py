@@ -3,7 +3,7 @@ import copy
 import sys
 import time
 
-cache = {}  # you can use this to implement state caching!
+cache = {} 
 depth_limit = 7
 class Board:
     def __init__(self, board: list[list[str]]):
